@@ -30,4 +30,4 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_AMBITIOUS_BUSH_0ECFD3D00 }}
           action: "upload"
           app_location: "/"
-          output_location: "dist"
+          app_artifact_location: "dist"   # ✅ FIXED
